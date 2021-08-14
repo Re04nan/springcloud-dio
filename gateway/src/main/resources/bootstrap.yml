@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gateway
+
+  profiles:
+    active: default
+
+  cloud:
+   config: http://localhost:8888
